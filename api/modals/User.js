@@ -7,6 +7,11 @@ const UserSchema = new mongoose.Schema(
             require: true,
             unique: true,
         },
+        email: {
+            type: String,
+            required: true,
+            unique: true,
+        },
         password: {
             type: String,
             require: true,
@@ -15,8 +20,7 @@ const UserSchema = new mongoose.Schema(
             type: String,
             default: "",
         },
-    },
-    { tomestamps: true }
+    },{ timestamps: true }
 );
 
 module.exports = mongoose.model("User", UserSchema);
