@@ -80,5 +80,17 @@ DELETE > localhost:5000/api/posts/621f6c9150db297ee7a2bb99
 ### get post byID
 GET > localhost:5000/api/posts/621f6c662f763fbbd6655d7c
 {
-    
+
+}
+
+### get all post
+GET > localhost:5000/api/posts/
+{
+
+}
+
+### get post's user
+GET > localhost:5000/api/posts?user=jane
+{
+
 }
