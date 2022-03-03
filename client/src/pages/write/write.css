@@ -40,13 +40,13 @@
     width: 70vw;
 }
 
-.writeText {
-    font-size: 20px;
-    width: 100vh;
+.writeInput:focus {
+    outline: none;
 }
 
-.writeSubmit {
-    position: absolute;
+.writeText {
+    font-size: 20px;
+    height: 100vh;
 }
 
 .writeSubmit {
