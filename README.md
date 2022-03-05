@@ -20,7 +20,7 @@ backend - Node.js Blog App REST API with MongoDB
 |                |  desc : String        |   email : String         |
 |                |  photo : String       |   password : String      |
 |                |  username : String    |   profilepic : String    |
-|                |  photo : Array        |                          |
+|                |  categories : Array   |                          |
 
 ### ExpressJS - routes 
    
