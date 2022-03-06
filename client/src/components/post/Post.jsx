@@ -1,30 +1,29 @@
 import React from 'react'
 import "./post.css"
 
-export default function Post() {
+export default function Post({ post }) {
     return (
         <div className="post">
-            <img 
-                className="postImg"
-                src="https://imgv3.fotor.com/images/homepage-feature-card/Fotor-photo-effects.jpg" 
-                alt="" 
-            />
+            {post.photo && (
+                <img 
+                    className="postImg"
+                    src={post.photo}
+                    alt="" 
+                />
+            )}
             <div className="postInfo">
-                <div className="postsCats">
-                    <span className="postCat">Music</span>
-                    <span className="postCat">Music</span>
+                <div className="postCats">
+                    {post.categories.map((c) => (
+                        <span className="postCat">{c.name}</span>
+                    ))}
                 </div>
-                <span className="postTitle">
-                    Lorem ipsum dolor sit amet
-                </span>
+
+                <span className="postTitle">{post.title}</span>
                 <hr />
-                <span className="postDate">1 hour ago</span>
+                
+                <span className="postDate">{new Date(post.createdAt).toDateString()}</span>
             </div>
-            <p className="postDesc">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eaque 
-                ab assumenda voluptate voluptatem pariatur eius unde, ullam facilis rerum 
-                nventore ea non tenetur quis dolorem doloremque ut quam recusandae?
-            </p>
+            <p className="postDesc">{post.desc}</p>
         </div>
     )
 }
