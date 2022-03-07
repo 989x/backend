@@ -1,18 +1,36 @@
 import React from 'react'
 import "./singlePost.css"
+import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router'
+import axios from 'axios'
 
 export default function SinglePost() {
+    const location = useLocation()
+    const path = location.pathname.split("/")[2];
+    const [post, setPost] = useState({})
+
+    useEffect(() => {
+        const getPost = async () => {
+            const res = await axios.get("/posts/" + path);
+            setPost(res.data)
+            console.log(res)
+        };
+        getPost()
+    }, [path]);
+
     return (
         <div className="singlePost">
             <div className="singlePostWrapper">
-                <img 
-                    src="https://imgv3.fotor.com/images/homepage-feature-card/Fotor-photo-effects.jpg" 
-                    alt="" 
-                    className="singlePostImg" 
-                />
+                {post.photo && (
+                    <img 
+                        src="" 
+                        alt="" 
+                        className="singlePostImg" 
+                    />
+                )}
 
                 <h1 className="singlePostTitle">
-                    Lorem ipsum dolor sit amet.
+                    {post.title}
                     <div className="singlePostEdit">
                         <i className="singlePostIcon far fa-edit"></i>
                         <i className="singlePostIcon far fa-trash-alt"></i>
@@ -21,27 +39,13 @@ export default function SinglePost() {
 
                 <div className="singlePostInfo">
                     <span className="singlePostAuthor">
-                        Author: <b>Safak</b>
+                        Author: <b>{post.username}</b>
                     </span>
-                    <span className="singlePostDate">1 hour ago</span>
+                    <span className="singlePostDate">{new Date(post.createdAt).toDateString()}</span>
                 </div>
 
                 <p className="singlePostDesc">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque facilis 
-                    architecto illum molestiae, a in consectetur nihil dolore dicta tenetur 
-                    molestias voluptas harum, id officia corrupti, nulla rerum nostrum fugiat?
-
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque facilis 
-                    architecto illum molestiae, a in consectetur nihil dolore dicta tenetur 
-                    molestias voluptas harum, id officia corrupti, nulla rerum nostrum fugiat?
-                    
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque facilis 
-                    architecto illum molestiae, a in consectetur nihil dolore dicta tenetur 
-                    molestias voluptas harum, id officia corrupti, nulla rerum nostrum fugiat?
-
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque facilis 
-                    architecto illum molestiae, a in consectetur nihil dolore dicta tenetur 
-                    molestias voluptas harum, id officia corrupti, nulla rerum nostrum fugiat?
+                    {post.desc}
                 </p>
             </div>
         </div>
