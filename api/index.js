@@ -17,6 +17,7 @@ app.use("/images", express.static(path.join(__dirname, "/images")))
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    // useFindAndModify:true,
     // useCreateIndex: true,
 })
     .then(console.log("Connectted to MongoDB"))
