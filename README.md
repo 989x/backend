@@ -1,3 +1,42 @@
+### Previews
+
+<table>
+  <tr>
+    <td align="center">Home</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SinsamutQ/FULL-Lama-Dev-React-Blog/blob/main/z-file/home.png" width=100%></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">Write</td>
+    <td align="center">Profile</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SinsamutQ/FULL-Lama-Dev-React-Blog/blob/main/z-file/write.png" width=100%></td>
+    <td><img src="https://github.com/SinsamutQ/FULL-Lama-Dev-React-Blog/blob/main/z-file/profile.png" width=100%></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">View</td>
+    <td align="center">View == id (can edit)</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SinsamutQ/FULL-Lama-Dev-React-Blog/blob/main/z-file/view.png" width=1500></td>
+    <td><img src="https://github.com/SinsamutQ/FULL-Lama-Dev-React-Blog/blob/main/z-file/view%20by%20id.png" width=1500></td>
+  </tr>
+</table>
+
+
+
+<!-- o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o o-o -->
+
+
+
 ## FULL - Lama Dev - React Blog 
 
 fontend - React Node.js Full Stack Blog App Tutorial | MERN Stack APP Full Course 
