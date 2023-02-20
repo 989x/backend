@@ -4,9 +4,9 @@ change BlogSchema to blog.entity.ts
 
 ### ChatGPT
 
-Sure, I can modify the example implementation to use BlogEntity instead of BlogSchema. Here's how it would look like:
+Sure, I can modify the example implementation to use `BlogEntity` instead of `BlogSchema`. Here's how it would look like:
 
-First, we'll create a new file called blog.entity.ts:
+First, we'll create a new file called `blog.entity.ts`:
 
 ```ts
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
@@ -31,11 +31,11 @@ export class Blog {
 
 export const BlogEntity = SchemaFactory.createForClass(Blog);
 ```
-This entity definition is similar to the previous schema definition, but we're using the @nestjs/mongoose decorators to define the schema properties instead of using mongoose.Schema directly. The @Schema() decorator specifies that this class represents a Mongoose schema.
+This entity definition is similar to the previous schema definition, but we're using the `@nestjs/mongoose` decorators to define the schema properties instead of using `mongoose.Schema` directly. The `@Schema()` decorator specifies that this class represents a Mongoose schema.
 
-We've also defined a BlogDocument type to use in our BlogService and BlogResolver.
+We've also defined a `BlogDocument` type to use in our `BlogService` and `BlogResolver`.
 
-Next, we'll modify our BlogModule to use BlogEntity instead of BlogSchema:
+Next, we'll modify our `BlogModule` to use `BlogEntity` instead of `BlogSchema`:
 
 ```ts
 import { Module } from '@nestjs/common';
@@ -58,9 +58,9 @@ import { BlogEntity } from './blog.entity';
 })
 export class BlogModule {}
 ```
-Here, we're importing BlogEntity and using it with MongooseModule.forFeature to add our Blog entity to the list of schemas that Mongoose should use.
+Here, we're importing `BlogEntity` and using it with `MongooseModule.forFeature` to add our `Blog` entity to the list of schemas that Mongoose should use.
 
-Finally, we'll modify our BlogService to use BlogDocument instead of Blog:
+Finally, we'll modify our `BlogService` to use `BlogDocument` instead of `Blog`:
 
 ```ts
 import { Injectable } from '@nestjs/common';
@@ -96,7 +96,7 @@ export class BlogService {
   }
 }
 ```
-Here, we're importing BlogDocument and using it with Model<BlogDocument> instead of Model<Blog> to define our model type. This ensures that the returned documents have the appropriate schema properties based on our BlogEntity definition.
+Here, we're importing `BlogDocument` and using it with `Model<BlogDocument>` instead of `Model<Blog>` to define our model type. This ensures that the returned documents have the appropriate schema properties based on our `BlogEntity` definition.
 
 
 
@@ -107,9 +107,9 @@ found problem on BlogSchema in blog.entity.ts , The word ObjectType and Field is
 
 ### ChatGPT
 
-You're right! The @ObjectType and @Field decorators are required to define a GraphQL object type in NestJS.
+You're right! The `@ObjectType` and `@Field` decorators are required to define a GraphQL object type in NestJS.
 
-Here's how you can modify your Blog entity to add these decorators:
+Here's how you can modify your `Blog` entity to add these decorators:
 
 ```ts
 import { ObjectType, Field, ID } from '@nestjs/graphql';
@@ -141,6 +141,6 @@ export class Blog extends Document {
 
 export const BlogSchema = SchemaFactory.createForClass(Blog);
 ```
-The @ObjectType decorator indicates that this class represents a GraphQL object type, and the @Field decorator is used to mark each property as a field in the GraphQL schema. We also use the @Prop decorator to mark each property as a field in the Mongoose schema.
+The `@ObjectType` decorator indicates that this class represents a GraphQL object type, and the `@Field` decorator is used to mark each property as a field in the GraphQL schema. We also use the `@Prop` decorator to mark each property as a field in the Mongoose schema.
 
-With these changes, you should be able to use your Blog entity in your GraphQL resolvers without any issues.
+With these changes, you should be able to use your `Blog` entity in your GraphQL resolvers without any issues.

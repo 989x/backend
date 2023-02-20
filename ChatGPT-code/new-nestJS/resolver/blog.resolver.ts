@@ -1,31 +1,46 @@
-import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
-import { Blog } from './blog';
+// ____________________________________ start BlogResolver ____________________________________
 
-@Injectable()
-export class BlogService {
-  constructor(@InjectModel('Blog') private readonly blogModel: Model<Blog>) {}
+import { Resolver, Query, Args, Mutation } from '@nestjs/graphql';
+import { Blog } from './blog.entity';
+import { BlogService } from './blog.service';
 
-  async findAll(): Promise<Blog[]> {
-    return this.blogModel.find().exec();
+@Resolver('Blog')
+export class BlogResolver {
+  constructor(private readonly blogService: BlogService) {}
+
+  @Query(() => [Blog])
+  async blogs(): Promise<Blog[]> {
+    return this.blogService.findAll();
   }
 
-  async findOneById(id: string): Promise<Blog> {
-    return this.blogModel.findById(id).exec();
+  @Query(() => Blog)
+  async blog(@Args('id') id: string): Promise<Blog> {
+    return this.blogService.findOneById(id);
   }
 
-  async create(blog: Blog): Promise<Blog> {
-    const createdBlog = new this.blogModel(blog);
-    return createdBlog.save();
+  @Mutation(() => Blog)
+  async createBlog(
+    @Args('title') title: string,
+    @Args('content') content: string,
+  ): Promise<Blog> {
+    const blog = { title, content };
+    return this.blogService.create(blog);
   }
 
-  async update(id: string, blog: Blog): Promise<Blog> {
-    return this.blogModel.findByIdAndUpdate(id, blog, { new: true }).exec();
+  @Mutation(() => Blog)
+  async updateBlog(
+    @Args('id') id: string,
+    @Args('title') title: string,
+    @Args('content') content: string,
+  ): Promise<Blog> {
+    const blog = { title, content };
+    return this.blogService.update(id, blog);
   }
 
-  async delete(id: string): Promise<void> {
-    await this.blogModel.findByIdAndDelete(id).exec();
+  @Mutation(() => Boolean)
+  async deleteBlog(@Args('id') id: string): Promise<boolean> {
+    await this.blogService.delete(id);
+    return true;
   }
 }
 
@@ -107,3 +122,23 @@ export class BlogResolver {
 
 
 
+// ____________________________________ update updateBlog ____________________________________
+
+@Mutation(() => Blog)
+async updateBlog(
+  @Args('updateBlogInput') updateBlogInput: UpdateBlogInput,
+): Promise<Blog> {
+  const { id, title, content } = updateBlogInput;
+  const blog = await this.blogService.findOne(id);
+  if (!blog) {
+    throw new NotFoundException(`Blog with ID ${id} not found`);
+  }
+  if (title) {
+    blog.title = title;
+  }
+  if (content) {
+    blog.content = content;
+  }
+  blog.updatedAt = new Date();
+  return this.blogService.update(blog);
+}

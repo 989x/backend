@@ -3,15 +3,14 @@
 </p>
 
 ### 开发商
-- [**xxx**](https://github.com/989x/backend/tree/main/xxx)
-    - a
+- [**ChatGPT-code**](https://github.com/989x/backend/tree/main/ChatGPT-code)
+    - new-nestJS
+    - normal-nestJS
 
 ### 目录
-- [**chatGPT-nestJS**](https://github.com/989x/backend/tree/main/chatGPT-nestJS)
-    - a
-- [**chatGPT-GraphQL**](https://github.com/989x/backend/tree/main/chatGPT-GraphQL)
-    - a
+- [**ChatGPT-promp**](https://github.com/989x/backend/tree/main/ChatGPT-promp)
+    - nestJS
 - [**nestJS**](https://github.com/989x/backend/tree/main/nestJS)
-    - a
+    - debug
 - [**privacy**](https://github.com/989x/backend/tree/main/privacy)
-    - a
+    - env

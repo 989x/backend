@@ -43,14 +43,14 @@ import { MongooseModule } from '@nestjs/mongoose';
 })
 export class DatabaseModule {}
 ```
-This will connect to a MongoDB database called "my-blog-app" running on localhost.
+This will connect to a MongoDB database called "my-blog-app" running on `localhost`.
 
 Next, let's create a new module for our blog feature:
 
 ```bash
 nest g module blog
 ```
-In blog.module.ts, we'll set up the GraphQL module and import the DatabaseModule:
+In `blog.module.ts`, we'll set up the GraphQL module and import the `DatabaseModule`:
 
 ```ts
 import { Module } from '@nestjs/common';
@@ -72,9 +72,9 @@ import { BlogService } from './blog.service';
 })
 export class BlogModule {}
 ```
-Here, we're using the GraphQLModule from NestJS, which will generate a schema based on our BlogResolver and the associated types. We're also importing MongooseModule.forFeature to add our BlogSchema to the list of schemas that Mongoose should use.
+Here, we're using the `GraphQLModule` from NestJS, which will generate a schema based on our `BlogResolver` and the associated types. We're also importing `MongooseModule.forFeature` to add our `BlogSchema` to the list of schemas that Mongoose should use.
 
-Next, let's define our Blog schema:
+Next, let's define our `Blog` schema:
 
 ```ts
 import * as mongoose from 'mongoose';
@@ -86,9 +86,9 @@ export const BlogSchema = new mongoose.Schema({
   updatedAt: { type: Date, default: Date.now },
 });
 ```
-This schema defines a blog with a title, content, createdAt, and updatedAt field.
+This schema defines a blog with a `title`, `content`, `createdAt`, and `updatedAt` field.
 
-Next, let's create our BlogService:
+Next, let's create our `BlogService`:
 
 ```ts
 import { Injectable } from '@nestjs/common';
