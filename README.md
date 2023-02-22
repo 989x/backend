@@ -10,6 +10,7 @@
 ### 目录
 - [**ChatGPT-promp**](https://github.com/989x/backend/tree/main/ChatGPT-promp)
     - nestJS
+    - schema
 - [**nestJS**](https://github.com/989x/backend/tree/main/nestJS)
     - debug
 - [**privacy**](https://github.com/989x/backend/tree/main/privacy)
