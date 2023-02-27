@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Estate, EstateDocument } from './estate.model';
+import { EstateService } from './estate.service';
 import { CreateEstateInput } from './create-estate.input';
 
 @Injectable()

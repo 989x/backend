@@ -1,10 +1,6 @@
 // 🙎🏻‍♂️ 💬 Properties Collection
 
-use realestate_db
-
-db.createCollection("Properties")
-
-db.Properties.insertOne({
+{
   "user_id": ObjectId("614d5b5d43c02aaf6efdcf22"),
   "title": "Spacious 2BR Apartment with Balcony",
   "description": "This beautiful 2-bedroom apartment has a large balcony with stunning views of the city. The bedrooms are spacious and the living area is perfect for entertaining guests. The building has a pool and gym for residents to use.",
@@ -26,4 +22,4 @@ db.Properties.insertOne({
     ObjectId("614d5c7043c02aaf6efdcf25"),
     ObjectId("614d5c7e43c02aaf6efdcf26")
   ]
-})
+}

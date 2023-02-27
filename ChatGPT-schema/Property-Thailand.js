@@ -1,10 +1,6 @@
 // 🙎🏻‍♂️ 💬 create new Properties Collection for thailand
 
-use realestate_db
-
-db.createCollection("Properties-Thailand")
-
-db.Properties.insertOne({
+{
   "property_type": "Condominium",
   "title": "Stylish and Modern Condo in Bangkok",
   "description": "Beautifully furnished 2-bedroom condo with amazing views of the city. Comes with full amenities, including pool and gym.",
@@ -31,4 +27,4 @@ db.Properties.insertOne({
     "https://example.com/image3.jpg"
   ],
   "agent_id": ObjectId("6179c81371cc3f4c4a22f0bf")
-})
+}
