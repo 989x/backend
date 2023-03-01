@@ -92,7 +92,7 @@ With this setup, you can switch the state of MongoDB by setting the `NODE_ENV` e
 
 
 
-### 🙎🏻‍♂️ 💬
+### 🙎🏻‍♂️ 💬 (find bug, skip this step)
 
 Make mongodb more complicated, create config file add .env inside config.ts, import config file to app.module.ts
 
