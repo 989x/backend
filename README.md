@@ -8,6 +8,13 @@
     - nestJS-estate
 
 ### 目录
+- [**ChatGPT-nestJS**](https://github.com/989x/backend/tree/main/ChatGPT-nestJS)
+    - nest-blog
+    - nest-estate
+- [**ChatGPT-nestJS-mongo**](https://github.com/989x/backend/tree/main/ChatGPT-nestJS-mongo)
+    - easy
+    - normal
+    - promp.md
 - [**ChatGPT-promp**](https://github.com/989x/backend/tree/main/ChatGPT-promp)
     - nestJS
     - schema
