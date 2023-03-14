@@ -24,3 +24,4 @@
     - debug
 - [**privacy**](https://github.com/989x/backend/tree/main/privacy)
     - env
+    - generateUniqueId
