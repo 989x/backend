@@ -8,14 +8,18 @@
     - nestJS-estate
 
 ### 目录
+- [**ChatGPT-generateUniqueId**](https://github.com/989x/backend/tree/main/ChatGPT-generateUniqueId)
+    - estate.service.ts
+    - generateUniqueId.ts
+    - prompt.md
 - [**ChatGPT-nestJS**](https://github.com/989x/backend/tree/main/ChatGPT-nestJS)
     - nest-blog
     - nest-estate
 - [**ChatGPT-nestJS-mongo**](https://github.com/989x/backend/tree/main/ChatGPT-nestJS-mongo)
     - easy
     - normal
-    - promp.md
-- [**ChatGPT-promp**](https://github.com/989x/backend/tree/main/ChatGPT-promp)
+    - prompt.md
+- [**ChatGPT-prompt**](https://github.com/989x/backend/tree/main/ChatGPT-prompt)
     - nestJS
     - schema
 - [**ChatGPT-schema**](https://github.com/989x/backend/tree/main/ChatGPT-schema)
@@ -24,4 +28,3 @@
     - debug
 - [**privacy**](https://github.com/989x/backend/tree/main/privacy)
     - env
-    - generateUniqueId

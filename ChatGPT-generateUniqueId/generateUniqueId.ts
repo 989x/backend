@@ -1,15 +1,23 @@
+// ------------------------------------
+// version1.1
+// 6194-2626-88429086
+// <generateUniqueId.ts/version1.1>
+// ------------------------------------
+
 // function generateUniqueId() {
-//   const epoch = new Date('2023-01-01').getTime(); // set a start date for the epoch
-//   const now = new Date().getTime();
-//   const timestamp = now - epoch;
-//   const random = Math.floor(Math.random() * 1000000);
-//   const id = `${timestamp}${random}`.padStart(12, '0');
-//   return `${id.slice(0, 4)}-${id.slice(4, 8)}-${id.slice(8)}`;
+  // const epoch = new Date('2023-01-01').getTime(); // set a start date for the epoch
+  // const now = new Date().getTime();
+  // const timestamp = now - epoch;
+  // const random = Math.floor(Math.random() * 1000000);
+  // const id = `${timestamp}${random}`.padStart(12, '0');
+  // return `${id.slice(0, 4)}-${id.slice(4, 8)}-${id.slice(8)}`;
 // }
 
-// 6194-2626-88429086
-
-// ____________________________________
+// ------------------------------------
+// version 1.2
+// 6194-7048-1915
+// <generateUniqueId.ts/version1.1>
+// ------------------------------------
 
 // function generateUniqueId() {
 //   const epoch = new Date('2023-01-01').getTime(); // set a start date for the epoch
@@ -20,9 +28,11 @@
 //   return `${id.slice(0, 4)}-${id.slice(4, 8)}-${id.slice(8, 12)}`;
 // }
 
-// 6194-7048-1915
-
-// ____________________________________
+// ------------------------------------
+// version 2.1-bug
+// PM3B-IH30-
+// <generateUniqueId.ts/version2.1-bug>
+// ------------------------------------
 
 // function generateUniqueId() {
 //   const epoch = new Date('2023-01-01').getTime(); // set a start date for the epoch
@@ -45,9 +55,11 @@
 //   return `${result.slice(0, 4)}-${result.slice(4, 8)}-${result.slice(8, 12)}`;
 // }
 
-// PM3B-IH30-
-
-// ____________________________________
+// ------------------------------------
+// version 2.2
+// 0186dbddcc44-9e83-0000-0000
+// <generateUniqueId.ts/version2.2>
+// ------------------------------------
 
 // let counter = 0;
 
@@ -61,9 +73,10 @@
 //   return id;
 // }
 
-// 0186dbddcc44-9e83-0000-0000
-
-// ____________________________________
+// ------------------------------------
+// version 2.3
+// <generateUniqueId.ts/version2.3>
+// ------------------------------------
 
 function generateUniqueId() {
   const epoch = new Date('2023-01-01').getTime(); // set a start date for the epoch
