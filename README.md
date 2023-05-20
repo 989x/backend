@@ -25,6 +25,7 @@
 - [**ChatGPT-schema**](https://github.com/989x/backend/tree/main/ChatGPT-schema)
     - Agent , Blog , Property-Thailand , Property , User
 - [**nestJS**](https://github.com/989x/backend/tree/main/nestJS)
+    - jwt-mongodb
     - debug-graphql
     - debug-module
 - [**privacy**](https://github.com/989x/backend/tree/main/privacy)
