@@ -9,7 +9,7 @@
 - [**B-Database**](https://github.com/989x/backend/tree/main/B-Database)
     - ChatGPT-schema
 - [**B-ExpressJS**](https://github.com/989x/backend/tree/main/B-ExpressJS)
-    - a
+    - example
 - [**B-Logic**](https://github.com/989x/backend/tree/main/B-Logic)
     - ChatGPT-generateUniqueId
 - [**C-NestJS**](https://github.com/989x/backend/tree/main/C-NestJS)
