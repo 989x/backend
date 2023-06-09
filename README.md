@@ -18,5 +18,6 @@
     - nestJS
 - [**C-NextAuth**](https://github.com/989x/backend/tree/main/C-NextAuth)
     - jwt-mongodb
-- [**C-Prompt**](https://github.com/989x/backend/tree/main/C-Prompt)
-    - ChatGPT-prompt
+- [**C-PromptGPT**](https://github.com/989x/backend/tree/main/C-PromptGPT)
+    - nestJS
+    - schema
