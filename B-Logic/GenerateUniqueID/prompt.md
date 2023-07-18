@@ -17,7 +17,7 @@ Sure, here's an implementation of the `generateUniqueId()` function in JavaScrip
 
 ```js
 // version 3 - work
-<GENID-V1.ts />
+<version-1.ts />
 ```
 
 This function generates a unique ID with three segments, each containing four characters. The characters are chosen randomly from a string of all uppercase and lowercase letters as well as digits. A hyphen is inserted between the segments to match the requested pattern.
@@ -43,7 +43,7 @@ Sure! Here's a JavaScript function called generateUniqueId() that generates a un
 
 ```js
 // version 1.1
-<GENID-V2.ts />
+<version-2.ts />
 ```
 
 This function utilizes the getRandomCharacter helper function to randomly select a character from a given set of characters. The generateRandomString function generates a random string of the specified length, ensuring that the first character is a number, the second character is a letter, and the rest can be either numbers or letters.
@@ -60,11 +60,11 @@ For example, the chance of coming out as a number is 70%, the chance of coming o
 
 will get a value of approx. 36b8-944e-4d49-b662, 9c94-4a0d-526d
 
-### - ChatGPT Response
+### ChatGPT Response
 
 ```js
 // version 1.2
-<GENID-V2.ts />
+<version-2.ts />
 ```
 
 In this updated code, the `generateRandomString` function takes two arguments: `length` and `probability`. The `length` parameter determines the length of the string, and the probability parameter determines the `probability` of numbers appearing in the string.
