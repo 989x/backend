@@ -13,7 +13,7 @@
     - structure
     - upload-img
 - [**B-Logic**](https://github.com/989x/backend/tree/main/B-Logic)
-    - ChatGPT-generateUniqueId
+    - GenerateUniqueID
 - [**C-NestJS**](https://github.com/989x/backend/tree/main/C-NestJS)
     - ChatGPT-nestJS
     - ChatGPT-nestJS-mongo
