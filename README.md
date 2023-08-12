@@ -7,6 +7,8 @@
 - [**A-Privacy**](https://github.com/989x/backend/tree/main/A-Privacy)
     - env
     - jwt-token
+- [**A-Secuing**](https://github.com/989x/backend/tree/main/A-Secuing)
+    - ...
 - [**B-Database**](https://github.com/989x/backend/tree/main/B-Database)
     - ChatGPT-schema
 - [**B-ExpressJS**](https://github.com/989x/backend/tree/main/B-ExpressJS)
