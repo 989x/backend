@@ -9,6 +9,8 @@
     - jwt-token
 - [**A-Secuing**](https://github.com/989x/backend/tree/main/A-Secuing)
     - ...
+- [**B-CollectData**](https://github.com/989x/backend/tree/main/B-CollectData)
+    - ... collect data from search
 - [**B-Database**](https://github.com/989x/backend/tree/main/B-Database)
     - ChatGPT-schema
 - [**B-ExpressJS**](https://github.com/989x/backend/tree/main/B-ExpressJS)
