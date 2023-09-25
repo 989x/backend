@@ -26,6 +26,6 @@
     - solve
 - [**C-NextAuth**](https://github.com/989x/backend/tree/main/C-NextAuth)
     - express-mongo
-- [**C-PromptGPT**](https://github.com/989x/backend/tree/main/C-PromptGPT)
+- [**D-PromptGPT**](https://github.com/989x/backend/tree/main/C-PromptGPT)
     - nestJS
     - schema
