@@ -1,9 +1,45 @@
 const mongoose = require('mongoose');
 
+// ________________________________________ user schema ________________________________________
+
 // Define the User Schema
 const userSchema = new mongoose.Schema({
-  // ... (user schema remains the same)
+  username: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  role: { type: String, enum: ['Admin', 'Agent', 'User'], default: 'User' },
+  profile: {
+    firstName: String,
+    lastName: String,
+    avatar: String,
+    contact: {
+      phone: String,
+      address: String,
+      city: String,
+      state: String,
+      zipCode: String,
+    },
+  },
+  socialProfiles: [{
+    platform: String,
+    profileUrl: String,
+  }],
+  settings: {
+    notifications: {
+      email: Boolean,
+      push: Boolean,
+    },
+    preferences: {
+      language: String,
+      currency: String,
+    },
+  },
+  createdAt: { type: Date, default: Date.now },
+  updatedAt: { type: Date, default: Date.now },
+  // Add more fields for user history, security, and permissions.
 });
+
+// ________________________________________ estate schema ________________________________________
 
 // Define the Estate Schema
 const estateSchema = new mongoose.Schema({
@@ -46,6 +82,8 @@ const estateSchema = new mongoose.Schema({
   // Add more advanced fields like energy efficiency ratings, legal documents, etc.
 });
 
+// ________________________________________ another schema ________________________________________
+
 // Define the Category Schema
 const categorySchema = new mongoose.Schema({
   name: { type: String, required: true },
@@ -65,16 +103,35 @@ const featureSchema = new mongoose.Schema({
 
 // Define the Message Schema for user communication
 const messageSchema = new mongoose.Schema({
-  // ... (message schema remains the same)
+  sender: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  receiver: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  estate: { type: mongoose.Schema.Types.ObjectId, ref: 'Estate', required: true },
+  message: { type: String, required: true },
+  createdAt: { type: Date, default: Date.now },
 });
 
 // Define the Notification Schema
 const notificationSchema = new mongoose.Schema({
-  // ... (notification schema remains the same)
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  message: { type: String, required: true },
+  read: { type: Boolean, default: false },
+  createdAt: { type: Date, default: Date.now },
+});
+
+// Define the Transaction Schema
+const transactionSchema = new mongoose.Schema({
+  estate: { type: mongoose.Schema.Types.ObjectId, ref: 'Estate', required: true },
+  buyer: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  seller: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  price: { type: Number, required: true },
+  transactionDate: { type: Date, default: Date.now },
+  // Add more fields to capture transaction details.
 });
 
 // Create geospatial index for the location field
 estateSchema.index({ location: '2dsphere' });
+
+// ________________________________________ exports ________________________________________
 
 // Create the models
 const User = mongoose.model('User', userSchema);
@@ -84,6 +141,7 @@ const Tag = mongoose.model('Tag', tagSchema);
 const Feature = mongoose.model('Feature', featureSchema);
 const Message = mongoose.model('Message', messageSchema);
 const Notification = mongoose.model('Notification', notificationSchema);
+const Transaction = mongoose.model('Transaction', transactionSchema);
 
 // Export the models for use in your application
-module.exports = { User, Estate, Category, Tag, Feature, Message, Notification };
+module.exports = { User, Estate, Category, Tag, Feature, Message, Notification, Transaction };
