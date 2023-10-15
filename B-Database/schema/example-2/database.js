@@ -34,6 +34,10 @@ const userSchema = new mongoose.Schema({
       currency: String,
     },
   },
+  favorites: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Estate', // Reference to the 'estateSchema'
+  }],
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
   // Add more fields for user history, security, and permissions.
