@@ -1,0 +1,762 @@
+[
+  {
+    "_id": {
+      "$oid": "651d9d1d5d08f125083ee842"
+    },
+    "tag": "estate",
+    "query": "mandarin",
+    "count": 9,
+    "date": "2023-10-04",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651d9d205d08f125083ee84a"
+    },
+    "tag": "estate",
+    "query": "simple",
+    "count": 7,
+    "date": "2023-10-04",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651d9d215d08f125083ee84e"
+    },
+    "tag": "estate",
+    "query": "condo",
+    "count": 1,
+    "date": "2023-10-04",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651d9d245d08f125083ee853"
+    },
+    "tag": "estate",
+    "query": "house",
+    "count": 1,
+    "date": "2023-10-04",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651d9f9ea33d8c8c85730373"
+    },
+    "tag": "estate",
+    "query": "test",
+    "count": 6,
+    "date": "2023-10-04",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651d9fa0a33d8c8c85730378"
+    },
+    "tag": "estate",
+    "query": "man",
+    "count": 1,
+    "date": "2023-10-04",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651f9066474ee7f6168f037c"
+    },
+    "tag": "estate",
+    "query": "villa",
+    "count": 6,
+    "date": "2023-10-06",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651f90c5474ee7f6168f0386"
+    },
+    "tag": "estate",
+    "query": "villaa",
+    "count": 1,
+    "date": "2023-10-06",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651fc6993ce5258085e1937e"
+    },
+    "tag": "estate",
+    "query": "quarter",
+    "count": 2,
+    "date": "2023-10-06",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652123b53d4bbce60bd05dd5"
+    },
+    "tag": "estate",
+    "query": "native",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652123c33d4bbce60bd05de0"
+    },
+    "tag": "estate",
+    "query": "native is elite",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652123c63d4bbce60bd05de5"
+    },
+    "tag": "estate",
+    "query": "native is ",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652123db3d4bbce60bd05dea"
+    },
+    "tag": "estate",
+    "query": "flat",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521378e919f068580656b75"
+    },
+    "tag": "estate",
+    "query": "reckless",
+    "count": 6,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521380d919f068580656ba0"
+    },
+    "tag": "estate",
+    "query": "symptom",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65213829919f068580656ba9"
+    },
+    "tag": "estate",
+    "query": "reckless s",
+    "count": 3,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521382e919f068580656bae"
+    },
+    "tag": "estate",
+    "query": "reckless ",
+    "count": 8,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652138a9919f068580656bcf"
+    },
+    "tag": "estate",
+    "query": "reckles",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65215b957b7eade123b3362f"
+    },
+    "tag": "estate",
+    "query": "siam",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65215f9e18c79a218cff5f5f"
+    },
+    "tag": "estate",
+    "query": "echo",
+    "count": 32,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521623718c79a218cff5f7c"
+    },
+    "tag": "estate",
+    "query": "benefit",
+    "count": 9,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521633118c79a218cff5f81"
+    },
+    "tag": "estate",
+    "query": "cellar",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521778ec9d7adfa3688e7a4"
+    },
+    "tag": "estate",
+    "query": "reckless theme",
+    "count": 2,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652177f6c9d7adfa3688e7ad"
+    },
+    "tag": "estate",
+    "query": "size beat",
+    "count": 4,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65217806c9d7adfa3688e7b9"
+    },
+    "tag": "estate",
+    "query": "flatware",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521780bc9d7adfa3688e7bf"
+    },
+    "tag": "estate",
+    "query": "flatware you",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521781ec9d7adfa3688e7c5"
+    },
+    "tag": "estate",
+    "query": "flatware youth",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65217822c9d7adfa3688e7cb"
+    },
+    "tag": "estate",
+    "query": "flatware youth bu",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65217897c9d7adfa3688e7dc"
+    },
+    "tag": "estate",
+    "query": "pony",
+    "count": 2,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521791ec9d7adfa3688e7f0"
+    },
+    "tag": "estate",
+    "query": "beat",
+    "count": 2,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65217980c9d7adfa3688e805"
+    },
+    "tag": "estate",
+    "query": "size ",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65217c42c9d7adfa3688e82b"
+    },
+    "tag": "estate",
+    "query": "ำแ้น",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521810fc9d7adfa3688e889"
+    },
+    "tag": "estate",
+    "query": "cabin",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65218127c9d7adfa3688e899"
+    },
+    "tag": "estate",
+    "query": "theme s",
+    "count": 6,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6521884ac9d7adfa3688e8c9"
+    },
+    "tag": "estate",
+    "query": "architech",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65218853c9d7adfa3688e8cf"
+    },
+    "tag": "estate",
+    "query": "archi",
+    "count": 1,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65218860c9d7adfa3688e8d5"
+    },
+    "tag": "estate",
+    "query": "assignment",
+    "count": 5,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65218987c9d7adfa3688e930"
+    },
+    "tag": "estate",
+    "query": "looting",
+    "count": 6,
+    "date": "2023-10-07",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65225976bf176bcfd3aa4ecc"
+    },
+    "tag": "estate",
+    "query": "import Image from \"next/image\"; import { useRouter } from \"next/router\"; import ",
+    "count": 1,
+    "date": "2023-10-08",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6523b8270062d26c62c7b580"
+    },
+    "tag": "estate",
+    "query": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "count": 1,
+    "date": "2023-10-09",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6523bd057a5f01d6cbcb85bc"
+    },
+    "tag": "estate",
+    "query": "ในการตีพิมพ์และการออกแบบกราฟิก lorem ipsum ",
+    "count": 1,
+    "date": "2023-10-09",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6523bd097a5f01d6cbcb85cc"
+    },
+    "tag": "estate",
+    "query": "ในการตีพิมพ์และการออกแบบกราฟิก lorem ipsum",
+    "count": 2,
+    "date": "2023-10-09",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6523bd107a5f01d6cbcb85d7"
+    },
+    "tag": "estate",
+    "query": "ในการตีพิมพ์และการออกแบบกราฟิก lorem ipsumในการตีพิมพ์และการ",
+    "count": 1,
+    "date": "2023-10-09",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6523bd6c7a5f01d6cbcb860a"
+    },
+    "tag": "estate",
+    "query": "ในการตีพิมพ์และการออกแบบกราฟิก lorem ipsum เป็นข้อความตัวยึด",
+    "count": 2,
+    "date": "2023-10-09",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6524e9fc771873d3790e65c7"
+    },
+    "tag": "estate",
+    "query": "benefita",
+    "count": 1,
+    "date": "2023-10-10",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6524fc28b639ee681732d288"
+    },
+    "tag": "estate",
+    "query": "lengthMathminmaxVisibleCirclestotalImages",
+    "count": 1,
+    "date": "2023-10-10",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6524fc35b639ee681732d299"
+    },
+    "tag": "estate",
+    "query": "Discovercountlessproperties",
+    "count": 1,
+    "date": "2023-10-10",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6525194c2305392f48cb1f4e"
+    },
+    "tag": "estate",
+    "query": "bullet",
+    "count": 5,
+    "date": "2023-10-10",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652633ba6bb7cef3f2dd1357"
+    },
+    "tag": "estate",
+    "query": "drown",
+    "count": 1,
+    "date": "2023-10-11",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652635ef6bb7cef3f2dd136f"
+    },
+    "tag": "estate",
+    "query": "dark",
+    "count": 5,
+    "date": "2023-10-11",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652664b0634746378f6467f4"
+    },
+    "tag": "estate",
+    "query": "Try traction",
+    "count": 1,
+    "date": "2023-10-11",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652664b8634746378f646809"
+    },
+    "tag": "estate",
+    "query": "Maid weakness manual",
+    "count": 1,
+    "date": "2023-10-11",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652664f8634746378f64681e"
+    },
+    "tag": "estate",
+    "query": "Veil",
+    "count": 2,
+    "date": "2023-10-11",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65268acfddb8b62059dd4934"
+    },
+    "tag": "estate",
+    "query": "Habitat",
+    "count": 2,
+    "date": "2023-10-11",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6528fcd47e9f4f1ec61c7519"
+    },
+    "tag": "estate",
+    "query": "Consumer volcano inspector advertise try size acceptable adv",
+    "count": 2,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6528fdfc7e9f4f1ec61c752c"
+    },
+    "tag": "estate",
+    "query": "Consumer volcano inspector advertise try",
+    "count": 5,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6528fe057e9f4f1ec61c7532"
+    },
+    "tag": "estate",
+    "query": "advertise try",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291a77a3d25389579be06a"
+    },
+    "tag": "estate",
+    "query": "Pilot faint brag sight maid expose",
+    "count": 3,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291b08a3d25389579be0ae"
+    },
+    "tag": "estate",
+    "query": "Alarm needle hammer machinery demand youth",
+    "count": 4,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291b34a3d25389579be0ff"
+    },
+    "tag": "estate",
+    "query": "Alarm needle hammer ",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291b37a3d25389579be105"
+    },
+    "tag": "estate",
+    "query": "Alarm needle ",
+    "count": 4,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291b62a3d25389579be151"
+    },
+    "tag": "estate",
+    "query": "Alarm needl",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291b64a3d25389579be157"
+    },
+    "tag": "estate",
+    "query": "Alarm needle",
+    "count": 7,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291b69a3d25389579be15d"
+    },
+    "tag": "estate",
+    "query": "Alarm ",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291d11a3d25389579be1d4"
+    },
+    "tag": "estate",
+    "query": "Alarm ne",
+    "count": 2,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291d14a3d25389579be1da"
+    },
+    "tag": "estate",
+    "query": "Alarm n",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291f48a3d25389579be209"
+    },
+    "tag": "estate",
+    "query": "maid expose",
+    "count": 4,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291f58a3d25389579be21e"
+    },
+    "tag": "estate",
+    "query": "maid",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65291f5da3d25389579be223"
+    },
+    "tag": "estate",
+    "query": "maid maid expose",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65292441a3d25389579be26b"
+    },
+    "tag": "estate",
+    "query": "hammer",
+    "count": 6,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "652925eca3d25389579be2ab"
+    },
+    "tag": "estate",
+    "query": "hammer need",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65292951a3d25389579be365"
+    },
+    "tag": "estate",
+    "query": "bullet eye wind",
+    "count": 3,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6529550ec3f00fc435eff36b"
+    },
+    "tag": "estate",
+    "query": "represent",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6529a148d9cc0b601aba3660"
+    },
+    "tag": "estate",
+    "query": "glue'",
+    "count": 2,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6529a14ad9cc0b601aba3666"
+    },
+    "tag": "estate",
+    "query": "glue",
+    "count": 3,
+    "date": "2023-10-13",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6529a14fd9cc0b601aba366c"
+    },
+    "tag": "estate",
+    "query": "glue wind",
+    "count": 1,
+    "date": "2023-10-13",
+    "__v": 0
+  }
+]
