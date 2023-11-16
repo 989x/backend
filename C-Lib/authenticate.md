@@ -84,4 +84,4 @@ const validateRequest = [
 
 You can use `validateRequest` as middleware for specific routes that need request data validation.
 
-These are some basic middleware components you can use to enhance the security and functionality of your wallet API. Depending on your application's specific needs, you can expand and customize these middleware functions further. When you're ready to implement JWT authentication, you can replace the basic authenticate middleware with a more robust JWT authentication system.
+These are some basic middleware components you can use to enhance the security and functionality of your wallet API. Depending on your application's specific needs, you can expand and customize these middleware functions further. When you're ready to implement JWT authentication, you can replace the basic `authenticate` middleware with a more robust JWT authentication system.
