@@ -18,9 +18,10 @@
     - mongo-schema
     - ...
 - [**B-ExpressJS**](https://github.com/989x/backend/tree/main/B-ExpressJS)
+    - next-auth
     - solve
     - structure
-    - view-tracking-system
+    - view-tracking
 - [**B-Fastify**](https://github.com/989x/backend/tree/main/B-Fastify)
     - ...
 - [**C-Lib**](https://github.com/989x/backend/tree/main/C-Lib)
@@ -31,8 +32,6 @@
     - example
     - example-mongo
     - solve
-- [**C-NextAuth**](https://github.com/989x/backend/tree/main/C-NextAuth)
-    - express-mongo
 - [**D-Prompt**](https://github.com/989x/backend/tree/main/C-Prompt)
     - nestJS
     - schema
