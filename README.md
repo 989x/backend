@@ -9,8 +9,9 @@
     - jsonwebtoken
 - [**A-Secuing**](https://github.com/989x/backend/tree/main/A-Secuing)
     - ...
-- [**B-CollectData**](https://github.com/989x/backend/tree/main/B-CollectData)
+- [**B-Collector**](https://github.com/989x/backend/tree/main/B-Collector)
     - searchRecord
+    - ...
 - [**B-Database**](https://github.com/989x/backend/tree/main/B-Database)
     - mongo
     - mongo-pagination
