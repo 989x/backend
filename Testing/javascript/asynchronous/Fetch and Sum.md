@@ -1,5 +1,7 @@
 # Problem: Fetch and Sum
 
+Your task is to complete the `fetchAndSum` function to meet the specified requirements. Use the Fetch API for fetching data, calculate the sum of the specified property, and handle errors appropriately. 
+
 ```js
 /*
   Problem:
@@ -57,5 +59,3 @@ fetchAndSum('https://jsonplaceholder.typicode.com/posts', 'userId')
     console.error('Error:', error);
   });
 ```
-
-Your task is to complete the `fetchAndSum` function to meet the specified requirements. Use the Fetch API for fetching data, calculate the sum of the specified property, and handle errors appropriately. 
