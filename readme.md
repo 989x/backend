@@ -20,6 +20,12 @@ Welcome to the backend repository! This space hosts various backend-related proj
     - searchRecord
     - ...
 
+### Fastest with Golang
+
+- [**B-Golang**](https://github.com/989x/backend/tree/main/B-Golang)
+    - sameple
+    - ...
+
 ### Database Management
 
 - [**B-Database**](https://github.com/989x/backend/tree/main/B-Database)
