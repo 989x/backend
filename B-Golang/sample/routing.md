@@ -2,7 +2,7 @@
 
 ## Project Structure
 
-```
+```lua
 gofiber-boilerplate
 |-- src
 |   |-- api
