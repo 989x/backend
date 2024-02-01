@@ -44,7 +44,16 @@ func GetDogsSum(c *fiber.Ctx) error {
 	sumPink := 0
 	sumNoColor := 0
 
+	// Create a new slice to store DogsRes items
+	var dogsRes []m.DogsRes
+
 	for _, dog := range dogs {
+		var dogRes m.DogsRes
+		dogRes.Name = dog.Name
+		dogRes.DogID = dog.DogID
+
+		dogsRes = append(dogsRes, dogRes)
+
 		switch {
 		case dog.DogID > 10 && dog.DogID <= 50:
 			sumRed++
@@ -58,14 +67,14 @@ func GetDogsSum(c *fiber.Ctx) error {
 	}
 
 	// Prepare the response
-	response := fiber.Map{
-		"count":       len(dogs),
-		"data":        dogs,
-		"name":        "golang-test",
-		"sum_red":     sumRed,
-		"sum_green":   sumGreen,
-		"sum_pink":    sumPink,
-		"sum_nocolor": sumNoColor,
+	response := m.ResultDogsData{
+		Count:      len(dogs),
+		Data:       dogsRes, // Use the new slice with DogsRes items
+		Name:       "golang-test",
+		SumRed:     sumRed,
+		SumGreen:   sumGreen,
+		SumPink:    sumPink,
+		SumNoColor: sumNoColor,
 	}
 
 	return c.Status(200).JSON(response)
@@ -87,7 +96,6 @@ func SoftRemoveDog(c *fiber.Ctx) error {
 	return c.Status(200).JSON(fiber.Map{"message": "Dog soft removed successfully"})
 }
 
-// GetSoftRemovedDogs retrieves dogs that have been soft removed
 func GetSoftRemovedDogs(c *fiber.Ctx) error {
 	db := database.DBConn
 	var softRemovedDogs []m.Dogs

@@ -11,7 +11,7 @@ GET {{localhostV1}}/dog/sum
 Authorization: {{authorizationHeader}}
 
 ### GET | GetDogsGreaterThan50LessThan100
-GET {{localhostV1}}/dog/sum
+GET {{localhostV1}}/dog/gt50lt100
 Authorization: {{authorizationHeader}}
 
 
@@ -45,7 +45,7 @@ Authorization: {{authorizationHeader}}
 
 {
   "name": "DogName",
-  "dog_id": 101,
+  "dog_id": 51,
   "type": "Red"
 }
 

@@ -16,7 +16,6 @@ type User struct {
 // _____________________________________________ dog
 
 type Dogs struct {
-	gorm.Model
 	Name  string `json:"name"`
 	DogID int    `json:"dog_id"`
 }
@@ -31,6 +30,16 @@ type ResultData struct {
 	Data  []DogsRes `json:"data"`
 	Name  string    `json:"name"`
 	Count int       `json:"count"`
+}
+
+type ResultDogsData struct {
+	Count      int       `json:"count"`
+	Data       []DogsRes `json:"data"`
+	Name       string    `json:"name"`
+	SumRed     int       `json:"sum_red"`
+	SumGreen   int       `json:"sum_green"`
+	SumPink    int       `json:"sum_pink"`
+	SumNoColor int       `json:"sum_nocolor"`
 }
 
 // _____________________________________________ company
