@@ -1,10 +1,10 @@
 @localhostV1 = http://localhost:3000/api/v1
-@authorizationHeader = Basic Z29maWJlcjoyMTAyMjU2Ng==
+@user1 = Basic Z29maWJlcjoyMTAyMjU2Ng==
 
 ### Test
 POST {{localhostV1}}/company
 Content-Type: application/json
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
 
 {
   "name": "Example Company",
@@ -18,13 +18,21 @@ Authorization: {{authorizationHeader}}
 
 ### GET /company - Get all companies
 GET {{localhostV1}}/company
-Authorization: {{authorizationHeader}}
 
 ### GET /company/{id} - Get a specific company by ID
 GET {{localhostV1}}/company/1
-Authorization: {{authorizationHeader}}
 
-# PUT /company/{id} - Update a specific company by ID
+### PUT /company/{id} - Update a specific company by ID
 PUT {{localhostV1}}/company/1
 Content-Type: application/json
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
+
+{
+  "name": "Update Company",
+  "description": "Update ipsum dolor sit amet, consectetur adipiscing elit.",
+  "location": "Update City, Country",
+  "industry": "Update Technology",
+  "founded_year": 2000,
+  "website": "https://update.com",
+  "contact_email": "info@update.com"
+}

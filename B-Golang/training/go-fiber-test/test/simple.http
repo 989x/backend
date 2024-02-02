@@ -4,18 +4,23 @@
 # @username = gofiber
 # @password = 21022566
 # Basic {{base64Encode username + ":" + password}}
-@authorizationHeader = Basic Z29maWJlcjoyMTAyMjU2Ng==
+@user1 = Basic Z29maWJlcjoyMTAyMjU2Ng==
+# @username = testgo
+# @password = 23012023
+# Basic {{base64Encode username + ":" + password}}
+@user2 = Basic dGVzdGdvOjIzMDEyMDIz
+# testing authorizationHeader
+@user3 = Basic xyz
 
 
 
 ### GET request to /api/v1
 GET {{localhostV1}}/
-Authorization: {{authorizationHeader}}
 
 ### POST request to /api/v1
 POST {{localhostV1}}/
 Content-Type: application/json
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
 
 {
   "name": "john",
@@ -24,28 +29,25 @@ Authorization: {{authorizationHeader}}
 
 ### GET request to /api/v1/user/:name
 GET {{localhostV1}}/user/JohnDoe
-Authorization: {{authorizationHeader}}
 
 ### POST request to /api/v1/inet with query parameter
 POST {{localhostV1}}/inet?search=fenny
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
 
 
 
 ### GET request to /api/v2/list
 GET {{localhostV2}}/list
-Authorization: {{authorizationHeader}}
 
 ### GET request to /api/v2/user
 GET {{localhostV2}}/user
-Authorization: {{authorizationHeader}}
 
 
 
 ### POST request to /api/v1/valid
 POST {{localhostV1}}/valid
 Content-Type: application/json
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
 
 {
   "name": "John",
@@ -57,22 +59,19 @@ Authorization: {{authorizationHeader}}
 
 ### Request to calculate factorial of 5
 GET {{localhostV1}}/fact/5
-Authorization: {{authorizationHeader}}
 
 ### Request to /api/v3/joe with tax_id query parameter
 GET {{localhostV3}}/joe
-Authorization: {{authorizationHeader}}
 
 ### Request to /api/v3/joe with a string tax_id
 GET {{localhostV3}}/joe?tax_id=Hello
-Authorization: {{authorizationHeader}}
 
 
 
 ### Successful registration
 POST {{localhostV1}}/register
 Content-Type: application/json
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
 
 {
   "email": "user@example.com",
@@ -87,7 +86,7 @@ Authorization: {{authorizationHeader}}
 ### Invalid password length
 POST {{localhostV1}}/register
 Content-Type: application/json
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
 
 {
   "email": "user@example.com",
@@ -102,7 +101,7 @@ Authorization: {{authorizationHeader}}
 ### Invalid website format (contains special characters)
 POST {{localhostV1}}/register
 Content-Type: application/json
-Authorization: {{authorizationHeader}}
+Authorization: {{user1}}
 
 {
   "email": "user@example.com",

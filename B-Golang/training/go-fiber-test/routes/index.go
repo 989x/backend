@@ -7,12 +7,23 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/basicauth"
 )
 
+func setupBasicAuth() fiber.Handler {
+	return func(c *fiber.Ctx) error {
+		if c.Method() == fiber.MethodGet {
+			return c.Next()
+		}
+
+		return basicauth.New(basicauth.Config{
+			Users: map[string]string{
+				"gofiber": "21022566", // user 1
+				"testgo":  "23012023", // user 2
+			},
+		})(c)
+	}
+}
+
 func InetRoutes(app *fiber.App) {
-	app.Use(basicauth.New(basicauth.Config{
-		Users: map[string]string{
-			"gofiber": "21022566",
-		},
-	}))
+	app.Use(setupBasicAuth())
 
 	api := app.Group("/api")
 	v1 := api.Group("/v1")
@@ -59,4 +70,18 @@ func InetRoutes(app *fiber.App) {
 	company.Get("/:id", c.GetCompany)
 	company.Put("/:id", c.UpdateCompany)
 	company.Delete("/:id", c.DeleteCompany)
+
+	employee := v1.Group("/employee")
+	employee.Get("", c.ReadEmployees)
+	employee.Post("", c.CreateEmployee)
+	employee.Get("/:id", c.ReadEmployee)
+	employee.Put("/:id", c.UpdateEmployee)
+	employee.Delete("/:id", c.DeleteEmployee)
+
+	employeeV2 := v2.Group("/employee")
+	employeeV2.Get("/test", func(c *fiber.Ctx) error {
+		return c.SendString("test")
+	})
+	employeeV2.Get("/age-groups", c.CountAgeGroups)
+	employeeV2.Get("/search", c.SearchEmployees)
 }
