@@ -10,7 +10,7 @@ However, for endpoints using the GET method exclusively, such as public resource
 package routes
 
 import (
-	c "go-fiber-test/controllers"
+	c "fiber-workshop/controllers"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/basicauth"
