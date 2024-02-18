@@ -13,10 +13,13 @@ Welcome to the backend repository! This space hosts various backend-related proj
     - jsonwebtoken
     - ...
 
-### Data Collection and Storage
+### Database Management
 
-- [**Collector**](https://github.com/989x/backend/tree/main/collector)
-    - searchRecord
+- [**Database**](https://github.com/989x/backend/tree/main/database)
+    - mongo
+    - mongo-pagination
+    - mongo-schema
+    - wallet
     - ...
 
 ### Fastest with Golang
@@ -28,18 +31,15 @@ Welcome to the backend repository! This space hosts various backend-related proj
     - sample
     - ...
 
-### Database Management
+### Data Collection and Storage
 
-- [**Database**](https://github.com/989x/backend/tree/main/database)
-    - mongo
-    - mongo-pagination
-    - mongo-schema
-    - wallet
+- [**Collector**](https://github.com/989x/backend/tree/main/lib-collect)
+    - searchRecord
     - ...
 
 ### Utility Libraries
 
-- [**Library**](https://github.com/989x/backend/tree/main/library)
+- [**Library**](https://github.com/989x/backend/tree/main/lib-main)
     - generateID
     - multer
     - ...
