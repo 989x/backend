@@ -8,27 +8,29 @@ Welcome to the backend repository! This space hosts various backend-related proj
 
 ### Privacy and Security
 
-- [**A-Privacy**](https://github.com/989x/backend/tree/main/A-Privacy)
+- [**Secuing**](https://github.com/989x/backend/tree/main/secuing)
     - env
     - jsonwebtoken
-- [**A-Secuing**](https://github.com/989x/backend/tree/main/A-Secuing)
     - ...
 
 ### Data Collection and Storage
 
-- [**B-Collector**](https://github.com/989x/backend/tree/main/B-Collector)
+- [**Collector**](https://github.com/989x/backend/tree/main/collector)
     - searchRecord
     - ...
 
 ### Fastest with Golang
 
-- [**B-Golang**](https://github.com/989x/backend/tree/main/B-Golang)
-    - sameple
+- [**Golang**](https://github.com/989x/backend/tree/main/golang)
+    - about
+    - func
+    - gorm
+    - sample
     - ...
 
 ### Database Management
 
-- [**B-Database**](https://github.com/989x/backend/tree/main/B-Database)
+- [**Database**](https://github.com/989x/backend/tree/main/database)
     - mongo
     - mongo-pagination
     - mongo-schema
@@ -37,34 +39,38 @@ Welcome to the backend repository! This space hosts various backend-related proj
 
 ### Utility Libraries
 
-- [**B-Lib**](https://github.com/989x/backend/tree/main/B-Lib)
+- [**Library**](https://github.com/989x/backend/tree/main/library)
     - generateID
     - multer
     - ...
 
 ### Node Frameworks
 
-- [**C-ExpressJS**](https://github.com/989x/backend/tree/main/C-ExpressJS)
+- [**ExpressJS**](https://github.com/989x/backend/tree/main/node-express)
     - next-auth
     - solve
     - structure
     - view-tracking
-- [**C-Fastify**](https://github.com/989x/backend/tree/main/C-Fastify)
     - ...
-- [**C-NestJS**](https://github.com/989x/backend/tree/main/C-NestJS)
+- [**Fastify**](https://github.com/989x/backend/tree/main/node-fastify)
+    - ...
+- [**NestJS**](https://github.com/989x/backend/tree/main/node-nest)
     - example
     - example-mongo
     - solve
+    - ...
 
 ### Company Entrance Test Materials
 
-- [**Testing**](https://github.com/989x/backend/tree/main/Testing)
+- [**Testing**](https://github.com/989x/backend/tree/main/testing)
     - helper
     - javascript
     - php
+    - ...
 
 ### Miscellaneous
 
-- [**D-Prompt**](https://github.com/989x/backend/tree/main/C-Prompt)
+- [**Prompt**](https://github.com/989x/backend/tree/main/prompt)
     - nestJS
     - schema
+    - ...
