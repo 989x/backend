@@ -16,6 +16,7 @@ Welcome to the backend repository! This space hosts various backend-related proj
 ### Database Management
 
 - [**Database**](https://github.com/989x/backend/tree/main/database)
+    - DBeaver
     - mongo
     - mongo-pagination
     - mongo-schema
