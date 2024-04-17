@@ -61,6 +61,9 @@ Welcome to the backend repository! This space hosts various backend-related proj
     - solve
     - ...
 
+- [**PassportJS**](https://github.com/989x/backend/tree/main/node-passport)
+    - azure
+
 ### Company Entrance Test Materials
 
 - [**Testing**](https://github.com/989x/backend/tree/main/testing)
