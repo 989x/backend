@@ -30,6 +30,7 @@ Welcome to the backend repository! This space hosts various backend-related proj
     - func
     - gorm
     - sample
+    - hexagonal
     - ...
 
 ### Data Collection and Storage
