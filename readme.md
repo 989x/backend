@@ -33,15 +33,10 @@ Welcome to the backend repository! This space hosts various backend-related proj
     - hexagonal
     - ...
 
-### Data Collection and Storage
+### Utility Libraries and Data Collection
 
-- [**Collector**](https://github.com/989x/backend/tree/main/lib-collect)
+- [**Library**](https://github.com/989x/backend/tree/main/libs)
     - searchRecord
-    - ...
-
-### Utility Libraries
-
-- [**Library**](https://github.com/989x/backend/tree/main/lib-main)
     - generateID
     - multer
     - ...
