@@ -33,7 +33,7 @@ Welcome to the backend repository! This space hosts various backend-related proj
     - hexagonal
     - ...
 
-### Utility Libraries and Data Collection
+### Libraries and Data Collection
 
 - [**Library**](https://github.com/989x/backend/tree/main/libs)
     - searchRecord
@@ -43,22 +43,21 @@ Welcome to the backend repository! This space hosts various backend-related proj
 
 ### Node Frameworks
 
-- [**ExpressJS**](https://github.com/989x/backend/tree/main/node-express)
-    - next-auth
-    - solve
-    - structure
-    - view-tracking
+- [**ExpressJS**](https://github.com/989x/backend/tree/main/node/express)
+    - next-auth  
+    - solve  
+    - structure  
+    - view-tracking  
     - ...
-- [**Fastify**](https://github.com/989x/backend/tree/main/node-fastify)
+- [**Fastify**](https://github.com/989x/backend/tree/main/node/fastify)  
     - ...
-- [**NestJS**](https://github.com/989x/backend/tree/main/node-nest)
-    - example
-    - example-mongo
-    - solve
+- [**NestJS**](https://github.com/989x/backend/tree/main/node/nest)  
+    - example  
+    - example-mongo  
+    - solve  
     - ...
-
-- [**PassportJS**](https://github.com/989x/backend/tree/main/node-passport)
-    - azure
+- [**PassportJS**](https://github.com/989x/backend/tree/main/node/passport)  
+    - azure  
 
 ### Company Entrance Test Materials
 
