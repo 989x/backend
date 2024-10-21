@@ -25,7 +25,7 @@ Welcome to the backend repository! This space hosts various backend-related proj
 
 ### Fastest with Golang
 
-- [**Golang**](https://github.com/989x/backend/tree/main/golang)
+- [**Golang**](https://github.com/989x/backend/tree/main/go)
     - about
     - func
     - gorm
